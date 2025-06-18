@@ -3,6 +3,8 @@ require_relative 'offer_strategy'
 require_relative 'delivery_rules'
 require_relative 'basket'
 
+
+# Initialize products, delivery rules, and offer strategies
 products = [
   Product.new('R01', 'Red Widget', 32.95),
   Product.new('G01', 'Green Widget', 24.95),
