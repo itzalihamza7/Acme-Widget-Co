@@ -1,9 +1,11 @@
 class OfferStrategy
+  # This is a base class for offer strategies.
   def apply(items)
     0.0
   end
 end
 
+# Represents an offer strategy for Red Widgets
 class RedWidgetOffer < OfferStrategy
   def apply(items)
     discount = 0.0
