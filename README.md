@@ -35,7 +35,7 @@ A simple Ruby command-line app that calculates the total cost of a shopping bask
 
 ```bash
 ruby main.rb R01 R01
-# Output: Total: $54.37
+# Output: Total: $54.38
 ```
 
 ---
